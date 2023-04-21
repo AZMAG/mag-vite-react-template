@@ -1,0 +1,78 @@
+{
+  "name": "mag-vite-react-template",
+  "version": "0.0.0",
+  "date": "2023-04-19",
+  "created": "2023-04-19",
+  "copyright": "2023",
+  "description": "MAG vite react template",
+  "private": true,
+  "type": "module",
+  "homepage": ".",
+  "author": "MAG Regional Analytics (https://www.azmag.gov/)",
+  "contributors": [
+    {
+      "name": "Vern Wolfley",
+      "email": "vwolfley@azmag.gov"
+    },
+    {
+      "name": "Jack Fairfield",
+      "email": "jfairfield@azmag.gov"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AZMAG/map-ReadOn-MapLIT-v2/"
+  },
+  "bugs": {
+    "url": "https://github.com/AZMAG/map-ReadOn-MapLIT-v2/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite replace build",
+    "preview": "vite preview",
+    "replace": "node replaceScripts"
+  },
+  "dependencies": {
+    "@arcgis/core": "^4.26.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "mag-prettier-config": "^1.1.1",
+    "postcss": "^8.4.22",
+    "prettier": "^2.8.7",
+    "replace-in-file": "^6.3.5",
+    "tailwindcss": "^3.3.1",
+    "vite": "^4.2.0"
+  },
+  "prettier": "mag-prettier-config",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "prettier"
+    ],
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  },
+  "browserslist": {
+    "production": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "license": "MIT"
+}
