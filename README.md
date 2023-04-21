@@ -7,6 +7,62 @@
 
 ## :key: Keywords
 
+'mag' 'vite' 'react' 'esri-javascript-api' 'template'
+
+## What is the MAG Vite React Template?
+
+This project provides a basic dev setup intended for quickly setting up a MAG project that uses Vite and React. It contains all of the necessary dependencies and configuration to get started with a new project.
+
+## How to use this template
+
+### Installation
+
+If you haven not already installed degit, install it globally with npm:
+
+```bash
+npm install -g degit
+```
+
+### Usage
+
+The simplest use of degit is to download the master branch of this repo from GitHub to your current working directory:
+
+```bash
+For example:
+degit user/repo
+```
+
+```bash
+degit AZMAG/mag-vite-react-template
+```
+
+or
+
+```bash
+degit https://github.com/AZMAG/mag-vite-react-template
+```
+
+### Create a new folder for the project
+
+If the second argument is omitted, the repo will be cloned to the current directory.
+
+```bash
+For example:
+degit user/repo my-new-project
+```
+
+```bash
+degit AZMAG/mag-vite-react-template [my-new-project]
+```
+
+or
+
+```bash
+degit https://github.com/AZMAG/mag-vite-react-template/[my-new-project]
+```
+
+### Getting Started
+
 ## Version
 
 ### version | 0.0.0
