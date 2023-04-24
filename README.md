@@ -65,10 +65,10 @@ degit https://github.com/AZMAG/mag-vite-react-template/[my-new-project]
 
 ## Version
 
-### version | 0.0.0
+### version | 1.0.0
 
-- #### Updated | 0000-00-00
-- #### Created | 0000-00-00
+- #### Updated | 2023-04-24
+- #### Created | 2023-04-19
 
 Releases will be numbered with the following format:
 

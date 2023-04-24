@@ -1,6 +1,8 @@
 import replace from "replace-in-file"
-
 import { version, date, created, copyright } from "./package.json"
+
+// const replace = require("replace-in-file")
+// const pkg = require("./package.json")
 
 // README
 const reVersion = new RegExp("(### version | )([0-9]+)(?:.([0-9]+))(?:.([0-9]+))")

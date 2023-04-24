@@ -21,10 +21,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AZMAG/map-ReadOn-MapLIT-v2/"
+    "url": "https://github.com/AZMAG/mag-vite-react-template/"
   },
   "bugs": {
-    "url": "https://github.com/AZMAG/map-ReadOn-MapLIT-v2/issues"
+    "url": "https://github.com/AZMAG/mag-vite-react-template/issues"
   },
   "scripts": {
     "dev": "vite",
