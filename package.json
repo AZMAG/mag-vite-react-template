@@ -5,10 +5,10 @@
   "created": "2023-04-19",
   "copyright": "2023",
   "description": "MAG vite react template",
-  "private": true,
   "type": "module",
   "homepage": ".",
   "author": "MAG Regional Analytics (https://www.azmag.gov/)",
+  "private": true,
   "contributors": [
     {
       "name": "Vern Wolfley",
@@ -28,14 +28,15 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite replace build",
+    "build": "npm run replace && vite build",
     "preview": "vite preview",
     "replace": "node replaceScripts"
   },
   "dependencies": {
     "@arcgis/core": "^4.26.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-ga4": "^2.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^3.1.0",
