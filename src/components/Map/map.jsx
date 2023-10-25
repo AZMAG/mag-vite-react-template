@@ -9,6 +9,7 @@ import LocateWidget from "../Widgets/locateWidget";
 import BasemapToggleWidget from "../Widgets/basemapToggleWidget";
 
 import DocConfig from "../../config/DocConfig";
+const ESRI_apiKEY = import.meta.env.VITE_esri_apiKey
 
 let map;
 let view;
@@ -29,7 +30,7 @@ function MainMap() {
 
   useEffect(() => {
     if (mapDiv.current) {
-      esriConfig.apiKey = DocConfig.esriConfig_apiKey;
+      esriConfig.apiKey = ESRI_apiKey;
       // basemap info
       // https://developers.arcgis.com/javascript/latest/api-reference/esri-Map.html#basemap
       map = new ArcGISMap({
