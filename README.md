@@ -2,12 +2,15 @@
 
 # MAG Vite React Template
 
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-vite-react-template?&logo=github&style=flat-square)](https://github.com/AZMAG/mag-vite-react-template/releases)
+![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-vite-react-template?&logo=github&style=flat-square)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/AZMAG/mag-vite-react-template?style=flat-square)
 ![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ## :key: Keywords
 
-'mag' 'vite' 'react' 'esri-javascript-api' 'template'
+`mag` `vite` `react` `esri-javascript-api` `template`
 
 ## What is the MAG Vite React Template?
 
@@ -65,14 +68,13 @@ degit https://github.com/AZMAG/mag-vite-react-template/[my-new-project]
 
 ## Version
 
-### version | 1.0.0
+### version | 1.1.0
 
-- #### Updated | 2023-04-24
+- #### Updated | 2023-10-5
+
 - #### Created | 2023-04-19
 
-Releases will be numbered with the following format:
-
-**`<major>.<minor>.<patch>`**
+Releases will be numbered with the following format: **`<major>.<minor>.<patch>`**
 
 And constructed with the following guidelines:
 
@@ -85,7 +87,7 @@ And constructed with the following guidelines:
 A list of technologies used within the project:
 
 - [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/)
-
+<a href="https://developers.arcgis.com/javascript/latest/" title="ArcGIS API for JavaScript"><img src="https://github.com/AZMAG/mag-vite-react-template/geticon/raw/master/icons/esri.svg" alt="JavaScript" width="31px" height="31px"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
 <a href="https://tc39.es/ecma262/" title="ECMAScript 6"><img src="https://github.com/get-icon/geticon/raw/master/icons/es6.svg" alt="ECMAScript 6" width="31px" height="31px"></a>
 <a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
