@@ -5,8 +5,7 @@ let docConfig = {
   magLink: "https://www.azmag.gov/",
   MEASUREMENT_ID: "G-B129P7KDMQ",
   contactJason: "https://www.azmag.gov/Contact/4788",
-  mainURL:
-    "https://geo.azmag.gov/arcgis/rest/services/readon/NativeNations_SchoolDistricts/MapServer",
+  mainURL:"",
 
 }
 

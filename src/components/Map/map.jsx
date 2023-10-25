@@ -30,7 +30,7 @@ function MainMap() {
 
   useEffect(() => {
     if (mapDiv.current) {
-      esriConfig.apiKey = ESRI_apiKey;
+      esriConfig.apiKey = ESRI_apiKEY;
       // basemap info
       // https://developers.arcgis.com/javascript/latest/api-reference/esri-Map.html#basemap
       map = new ArcGISMap({
