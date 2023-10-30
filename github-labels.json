@@ -3,21 +3,21 @@
     "num": 1,
     "name": "Area: data",
     "description": "data, data models",
-    "color": "#fbca04",
+    "color": "#cef2ac",
     "delete": false
   },
   {
     "num": 2,
     "name": "Area: design",
     "description": "visual design, branding, identity",
-    "color": "#fbca04",
+    "color": "#cef2ac",
     "delete": false
   },
   {
     "num": 3,
     "name": "Area: ux",
     "description": "end-user experience, interaction",
-    "color": "#fbca04",
+    "color": "#cef2ac",
     "delete": false
   },
   {
@@ -59,14 +59,14 @@
     "num": 9,
     "name": "Priority: Critical",
     "description": "The issue causes data loss, crashes or hangs salt processes, makes the system unresponsive, etc.",
-    "color": "#e11d21",
+    "color": "#cc2a36",
     "delete": false
   },
   {
     "num": 10,
     "name": "Priority: High",
     "description": "The issue reports incorrect functionality, bad functionality, a confusing user experience, etc.",
-    "color": "#eb6420",
+    "color": "#F09306",
     "delete": false
   },
   {
@@ -101,7 +101,7 @@
     "num": 15,
     "name": "Status: duplicate",
     "description": "This issue or pull request already exists.",
-    "color": "#0075ca",
+    "color": "#cccccc",
     "delete": false
   },
   {
@@ -129,7 +129,7 @@
     "num": 19,
     "name": "Status: on-hold",
     "description": "Similar to blocked, but are unable to process the issue at this time",
-    "color": "#ee9d35",
+    "color": "#EF47A7",
     "delete": false
   },
   {
@@ -178,7 +178,7 @@
     "num": 26,
     "name": "Type: feature",
     "description": "The issue is a request for new functionality including changes, enhancements, refactors, etc.",
-    "color": "#67aa2a",
+    "color": "#88d263",
     "delete": false
   },
   {
