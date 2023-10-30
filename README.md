@@ -77,14 +77,13 @@ Run the command and follow the prompts - `git-labelmaker`
 
 #### Labels
 
--[default](github-labels.json)
+- [github-labels.json](github-labels.json)
 
 ## Technologies
 
 A list of technologies used within the project:
 
-- [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/)
-<a href="https://developers.arcgis.com/javascript/latest/" title="ArcGIS API for JavaScript"><img src="https://github.com/AZMAG/mag-vite-react-template/geticon/raw/master/icons/esri.svg" alt="JavaScript" width="31px" height="31px"></a>
+<a href="https://developers.arcgis.com/javascript/latest/" title="ArcGIS API for JavaScript"><img src="https://github.com/AZMAG/mag-vite-react-template/blob/main/icons/esri.svg" alt="JavaScript" width="31px" height="31px"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
 <a href="https://tc39.es/ecma262/" title="ECMAScript 6"><img src="https://github.com/get-icon/geticon/raw/master/icons/es6.svg" alt="ECMAScript 6" width="31px" height="31px"></a>
 <a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
