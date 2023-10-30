@@ -1,7 +1,7 @@
 {
   "name": "mag-vite-react-template",
-  "version": "1.0.0",
-  "date": "2023-04-24",
+  "version": "1.2.0",
+  "date": "2023-10-30",
   "created": "2023-04-19",
   "copyright": "2023",
   "description": "MAG vite react template",
@@ -13,10 +13,6 @@
     {
       "name": "Vern Wolfley",
       "email": "vwolfley@azmag.gov"
-    },
-    {
-      "name": "Jack Fairfield",
-      "email": "jfairfield@azmag.gov"
     }
   ],
   "repository": {
@@ -33,22 +29,22 @@
     "replace": "node replaceScripts"
   },
   "dependencies": {
-    "@arcgis/core": "^4.26.5",
+    "@arcgis/core": "^4.28.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-ga4": "^2.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^3.1.0",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.38.0",
-    "eslint-config-prettier": "^8.8.0",
+    "@vitejs/plugin-react": "^4.1.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
     "mag-prettier-config": "^1.1.1",
-    "postcss": "^8.4.22",
-    "prettier": "^2.8.7",
-    "replace-in-file": "^6.3.5",
-    "tailwindcss": "^3.3.1",
-    "vite": "^4.2.0"
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "replace-in-file": "^7.0.1",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.5.0"
   },
   "prettier": "mag-prettier-config",
   "eslintConfig": {

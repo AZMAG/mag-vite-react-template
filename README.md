@@ -2,12 +2,15 @@
 
 # MAG Vite React Template
 
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-vite-react-template?&logo=github&style=flat-square)](https://github.com/AZMAG/mag-vite-react-template/releases)
+![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-vite-react-template?&logo=github&style=flat-square)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/AZMAG/mag-vite-react-template?style=flat-square)
 ![semver](https://img.shields.io/badge/semver-2.0.0-blue?style=flat-square)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ## :key: Keywords
 
-'mag' 'vite' 'react' 'esri-javascript-api' 'template'
+`mag` `vite` `react` `esri-javascript-api` `template`
 
 ## What is the MAG Vite React Template?
 
@@ -23,26 +26,11 @@ If you haven not already installed degit, install it globally with npm:
 npm install -g degit
 ```
 
-### Usage
+### Getting Started
 
 The simplest use of degit is to download the master branch of this repo from GitHub to your current working directory:
 
-```bash
-For example:
-degit user/repo
-```
-
-```bash
-degit AZMAG/mag-vite-react-template
-```
-
-or
-
-```bash
-degit https://github.com/AZMAG/mag-vite-react-template
-```
-
-### Create a new folder for the project
+#### Create a new folder for the project
 
 If the second argument is omitted, the repo will be cloned to the current directory.
 
@@ -61,18 +49,15 @@ or
 degit https://github.com/AZMAG/mag-vite-react-template/[my-new-project]
 ```
 
-### Getting Started
-
 ## Version
 
-### version | 1.0.0
+### version | 1.2.0
 
-- #### Updated | 2023-04-24
-- #### Created | 2023-04-19
+- #### Updated | 2023-10-5
 
-Releases will be numbered with the following format:
+- #### Created | 2023-10-30
 
-**`<major>.<minor>.<patch>`**
+Releases will be numbered with the following format: **`<major>.<minor>.<patch>`**
 
 And constructed with the following guidelines:
 
@@ -80,12 +65,26 @@ And constructed with the following guidelines:
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
 
+## Issues Labels
+
+### git-labelmaker
+
+Edit GitHub labels from the command line using `git-labelmaker`. You can easily add or remove GitHub labels, making it easier for your projects to adhere to a labelling scheme.
+
+For more information - [git-labelmaker](https://github.com/himynameisdave/git-labelmaker)
+
+Run the command and follow the prompts - `git-labelmaker`
+
+#### Labels
+
+-[default](github-labels.json)
+
 ## Technologies
 
 A list of technologies used within the project:
 
 - [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/)
-
+<a href="https://developers.arcgis.com/javascript/latest/" title="ArcGIS API for JavaScript"><img src="https://github.com/AZMAG/mag-vite-react-template/geticon/raw/master/icons/esri.svg" alt="JavaScript" width="31px" height="31px"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="31px" height="31px"></a>
 <a href="https://tc39.es/ecma262/" title="ECMAScript 6"><img src="https://github.com/get-icon/geticon/raw/master/icons/es6.svg" alt="ECMAScript 6" width="31px" height="31px"></a>
 <a href="https://www.w3.org/TR/html5/" title="HTML5"><img src="https://github.com/get-icon/geticon/raw/master/icons/html-5.svg" alt="HTML5" width="31px" height="31px"></a>
