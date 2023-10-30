@@ -26,26 +26,11 @@ If you haven not already installed degit, install it globally with npm:
 npm install -g degit
 ```
 
-### Usage
+### Getting Started
 
 The simplest use of degit is to download the master branch of this repo from GitHub to your current working directory:
 
-```bash
-For example:
-degit user/repo
-```
-
-```bash
-degit AZMAG/mag-vite-react-template
-```
-
-or
-
-```bash
-degit https://github.com/AZMAG/mag-vite-react-template
-```
-
-### Create a new folder for the project
+#### Create a new folder for the project
 
 If the second argument is omitted, the repo will be cloned to the current directory.
 
@@ -64,8 +49,6 @@ or
 degit https://github.com/AZMAG/mag-vite-react-template/[my-new-project]
 ```
 
-### Getting Started
-
 ## Version
 
 ### version | 1.1.0
@@ -81,6 +64,20 @@ And constructed with the following guidelines:
 1. **MAJOR** version when you make incompatible API changes **bumps the major** resets minor and patch
 2. **MINOR** version when you add functionality in a backwards-compatible manner **bumps the minor** resets patch
 3. **PATCH** version when you make backwards-compatible bug fixes and misc changes **bumps only the patch**
+
+## Issues Labels
+
+### git-labelmaker
+
+Edit GitHub labels from the command line using `git-labelmaker`. You can easily add or remove GitHub labels, making it easier for your projects to adhere to a labelling scheme.
+
+For more information - [git-labelmaker](https://github.com/himynameisdave/git-labelmaker)
+
+Run the command and follow the prompts - `git-labelmaker`
+
+#### Labels
+
+-[default](github-labels.json)
 
 ## Technologies
 
