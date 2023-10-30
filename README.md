@@ -51,11 +51,11 @@ degit https://github.com/AZMAG/mag-vite-react-template/[my-new-project]
 
 ## Version
 
-### version | 1.1.0
+### version | 1.2.0
 
 - #### Updated | 2023-10-5
 
-- #### Created | 2023-04-19
+- #### Created | 2023-10-30
 
 Releases will be numbered with the following format: **`<major>.<minor>.<patch>`**
 

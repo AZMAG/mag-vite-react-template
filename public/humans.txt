@@ -41,7 +41,7 @@ humanstxt.org/
 
     Site Name:
     Site URL:
-    Version: 1.1.0
+    Version: 1.2.0
 	Last updated: 2023-10-5
     Creation date: 2022-08-05
 	Language: English
