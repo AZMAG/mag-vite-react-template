@@ -1,8 +1,6 @@
 import React, { useState } from "react"
 import magLogo from "../../../assets/images/MAG-logo-color-horizontal-white.webp"
-import US60Logo from "../../../assets/images/US60-sm.webp"
 import AboutModal from "../../Modals/about/AboutModal"
-import CommentButton from "../../CommentForm/CommentButton"
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -23,9 +21,8 @@ export default function Header() {
             rel="noreferrer"
             className="flex items-center gap-x-5">
             <img className="block h-5 lg:h-6 xl:h-8" src={magLogo} alt="MAG Power Logo" />
-            <img className="block h-6 lg:h-7 xl:h-9" src={US60Logo} alt="US60 Logo" />
             <h1 className="self-center text-sm md:text-base font-bold text-slate-50">
-              US 60 (Grand Avenue): Loop 303 to SR 74 Corridor Study – Interactive Comment Map
+              Title Here
             </h1>
           </a>
         </div>
@@ -53,19 +50,7 @@ export default function Header() {
           <nav id="nav-menu" className="hidden md:flex-row md:flex">
             <ul className="flex flex-col justify-center md:flex-row md:space-x-2 md:mt-0 md:text-sm md:font-semibold md:border-0 text-slate-800">
               <li className="text-center flex">
-                <CommentButton />
-              </li>
-              <li className="text-center flex">
                 <AboutModal />
-              </li>
-              <li className="text-center flex">
-                <a
-                  href="https://azmag.gov/US60CorridorStudy"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-bold text-slate-50 hover:bg-slate-300 hover:text-slate-800 py-2 px-4 rounded">
-                  Study Page
-                </a>
               </li>
             </ul>
           </nav>
@@ -78,19 +63,7 @@ export default function Header() {
         } fixed w-48 top-0 mt-16 right-0 flex-col bg-slate-50 text-lg text-slate-800 md:hidden`}>
         <nav className="flex flex-col px-2 py-4" aria-label="mobile-menu">
           <li className="text-center flex flex-col list-none">
-            <CommentButton />
-          </li>
-          <li className="text-center flex flex-col list-none">
             <AboutModal />
-          </li>
-          <li className="text-center flex">
-            <a
-              href="https://azmag.gov/US60CorridorStudy"
-              target="_blank"
-              rel="noreferrer"
-              className="font-bold text-slate-50 hover:bg-slate-300 hover:text-slate-800 py-2 px-4 rounded">
-              Study Page
-            </a>
           </li>
         </nav>
       </section>

@@ -3,7 +3,6 @@ import { observer } from "mobx-react-lite"
 import { useDataStore } from "../../../stores/DataContext"
 import Footer from "../../Layout/footer/Footer"
 import MagLogo from "../../../assets/images/MAG-logo-color-horizontal.webp"
-import US60Logo from "../../../assets/images/US60-sm.webp"
 
 function AboutModal() {
   const store = useDataStore()
@@ -14,11 +13,11 @@ function AboutModal() {
         title="About"
         className="font-bold text-slate-50 hover:bg-slate-300 hover:text-slate-800 py-2 px-4 rounded"
         onClick={() => {
-          store.setAboutModalShown(true)
+          store.setAboutModalShow(true)
         }}>
         About
       </button>
-      {store.aboutModalShown ? (
+      {store.aboutModalShow ? (
         <>
           <div
             tabIndex="-1"
@@ -29,7 +28,7 @@ function AboutModal() {
                   <h3 className="text-xl font-semibold text-slate-50">About</h3>
                   <button
                     className="text-slate-300 ml-auto inline-flex items-center rounded-lg p-2 text-sm hover:text-slate-50"
-                    onClick={() => store.setAboutModalShown(false)}>
+                    onClick={() => store.setAboutModalShow(false)}>
                     <svg
                       aria-hidden="true"
                       className="h-5 w-5"
@@ -47,7 +46,6 @@ function AboutModal() {
                 <div className="overflow-y-auto p-6 container text-slate-700 text-sm font-normal">
                   <div className="flex flex-row justify-center items-center mx-auto mb-8 space-x-6">
                     <img className="w-64" src={MagLogo} alt="MAG's Logo" />
-                    <img className="w-16" src={US60Logo} alt="US60 Logo" />
                   </div>
 
                   <h1 className="text-lg font-semibold mb-4">
@@ -94,7 +92,7 @@ function AboutModal() {
                     </a>
                     <button
                       className="mt-4 bg-slate-100 border border-slate-200 hover:bg-slate-300 text-slate-900 font-bold py-2 px-4 rounded"
-                      onClick={() => store.setAboutModalShown(false)}>
+                      onClick={() => store.setAboutModalShow(false)}>
                       Continue
                     </button>
                   </div>
