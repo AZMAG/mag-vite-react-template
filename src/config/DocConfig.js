@@ -5,8 +5,9 @@ let docConfig = {
   magLink: "https://www.azmag.gov/",
   MEASUREMENT_ID: "G-B129P7KDMQ",
   contactJason: "https://www.azmag.gov/Contact/4788",
-  mainURL:"",
-
+  esri_apiKey:
+    "AAPK6e918ac062d14b9ba0f9b1fc51580c1bWqxF_AfhZVp7q3-re6Em5nngXMK510xE8hIhynafyf1ePo-tdA7udseL7iJEhYK5",
+  mainURL: "",
 }
 
 export default docConfig;
