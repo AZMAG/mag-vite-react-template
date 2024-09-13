@@ -48,54 +48,21 @@ function AboutModal() {
                     <img className="w-64" src={MagLogo} alt="MAG's Logo" />
                   </div>
 
-                  <h1 className="text-lg font-semibold mb-4">
-                    US 60 (Grand Avenue): Loop 303 to SR 74 Corridor Study – Interactive Comment Map
+                  <h1 className="text-lg font-semibold mb-4">Title
                   </h1>
                   <p className="text-left mb-3">
-                    A tool for receiving feedback about the US 60 - Grand Ave Study area.
+                    What is the map?
                   </p>
-                  <p className="text-left mb-3">
-                    Share your knowledge and preferences for the US 60 - Grand Ave. Your input will
-                    help local and regional planners better understand your experiences by allowing
-                    you to pinpoint locations and corridors and provide feedback.
-                  </p>
-                  <p className="text-left mb-3">
-                    For more information, please visit:{" "}
-                    <a
-                      href="https://azmag.gov/US60CorridorStudy"
-                      className="font-bold text-magTeal hover:underline hover:text-magDark cursor-pointer">
-                      US 60 Corridor Study Page
-                    </a>
-                  </p>
-                  <div className="text-left mb-3">
-                    <span className="font-semibold">To use the map:</span>
-                    <ol className="list-disc list-outside mt-3 ml-5">
-                      <li>Click on the "Provide a Comment" button.</li>
-                      <li>
-                        Navigate the map cursor to the location on the map you want to comment on
-                        (note: you may zoom in and out and navigate around the screen using the maps
-                        controls)
-                      </li>
-                      <li>Click to add your point to the map</li>
-                      <li>Fill out the required fields</li>
-                      <li>Click the "Submit Comment" button</li>
-                    </ol>
-                  </div>
-                  <div className="flex flex-col mt-4">
-                    <p className="italic font-sm ">For more information, please contact</p>
-                    <a
-                      href="mailto:bwilliams@azmag.gov"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="font-bold text-magTeal hover:underline hover:text-magDark cursor-pointer">
-                      Bradlee Williams
-                    </a>
+
+
+
+
                     <button
                       className="mt-4 bg-slate-100 border border-slate-200 hover:bg-slate-300 text-slate-900 font-bold py-2 px-4 rounded"
                       onClick={() => store.setAboutModalShow(false)}>
                       Continue
                     </button>
-                  </div>
+
 
                   <Footer />
                 </div>

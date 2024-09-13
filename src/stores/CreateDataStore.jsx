@@ -19,7 +19,7 @@ export function createDataStore() {
     /*
      * Modals
      */
-    aboutModalShow: true,
+    aboutModalShow: false,
     setAboutModalShow(val) {
       this.aboutModalShow = val
     },
