@@ -32,8 +32,8 @@ humanstxt.org/
 
     Site Name: [Insert Site Name]
     Site URL: [Insert Site URL]
-    Version: 1.2.0
-	Last updated: 2023-10-5
+    Version: 1.2.1
+	Last updated: 2024-09-13
     Creation date: 2022-08-05
 	Language: English
 	Doctype: HTML5
