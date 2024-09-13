@@ -40,15 +40,19 @@ const humans = {
 }
 
 // index.html
-const reIndexVersion = new RegExp(
-  '(<meta name="version" content=")([0-9]+)(?:.([0-9]+))(?:.([0-9]+))(" \\/>)',
+const reIndexCopyright = new RegExp(
+  '(<meta name="copyright" content="Copyright )([0-9]{4})(">)',
 )
-const newIndexVersion = '<meta name="version" content="' + pkg.version + '" />'
+const newIndexCopyright = `<meta name="copyright" content="Copyright ${pkg.copyright}">`
+const reIndexVersion = new RegExp(
+  '(<meta name="version" content=")([0-9]+)(?:.([0-9]+))(?:.([0-9]+))(">)',
+)
+const newIndexVersion = '<meta name="version" content="' + pkg.version + '">'
 
 const reIndexDate = new RegExp(
-  '(<meta name="revision-date" content=")[0-9]{4}-[0-9]{2}-[0-9]{2}(" \\/>)',
+  '(<meta name="revision-date" content=")[0-9]{4}-[0-9]{2}-[0-9]{2}(">)',
 )
-const newIndexDate = '<meta name="revision-date" content="' + pkg.date + '" />'
+const newIndexDate = '<meta name="revision-date" content="' + pkg.date + '">'
 
 const timeStamp = new Date().toISOString()
 // .replace(/[^0-9]/g, "")
@@ -56,20 +60,20 @@ const timeStamp = new Date().toISOString()
 const timeStampBuild = timeStamp.replace(/[^0-9]/g, "").slice(0, -3)
 
 const reIndexBuild = new RegExp(
-  '(<meta name="build-info" content=")([0-9]+)(?:.([0-9]+))(?:.([0-9]+))(?:.)(\\d{14})(" \\/>)',
+  '(<meta name="build-info" content=")([0-9]+)(?:.([0-9]+))(?:.([0-9]+))(?:.)(\\d{14})(">)',
 )
 const newIndexBuild =
-  '<meta name="build-info" content="' + pkg.version + "." + timeStampBuild + '" />'
+  '<meta name="build-info" content="' + pkg.version + "." + timeStampBuild + '">'
 
 const reModified = new RegExp(
-  '(<meta property="article:modified_time" content=")(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2}):(\\d{2}):(\\d{2}(?:\\.\\d*)?)((-(\\d{2}):(\\d{2})|Z)?)(" \\/>)',
+  '(<meta property="article:modified_time" content=")(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2}):(\\d{2}):(\\d{2}(?:\\.\\d*)?)((-(\\d{2}):(\\d{2})|Z)?)(">)',
 )
-const newModified = '<meta property="article:modified_time" content="' + timeStamp + '" />'
+const newModified = '<meta property="article:modified_time" content="' + timeStamp + '">'
 
 const index = {
   files: "./index.html",
-  from: [reIndexVersion, reIndexDate, reIndexBuild, reModified],
-  to: [newIndexVersion, newIndexDate, newIndexBuild, newModified],
+  from: [reIndexCopyright, reIndexVersion, reIndexDate, reIndexBuild, reModified],
+  to: [newIndexCopyright, newIndexVersion, newIndexDate, newIndexBuild, newModified],
 }
 
 // DocConfig.js
