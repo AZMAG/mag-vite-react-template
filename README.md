@@ -1,6 +1,6 @@
-![](http://geo.azmag.gov/maps/readonaz/app/resources/img/maglogo_black.png)
+# mag-vite-react-template
 
-# MAG Vite React Template
+## MAG Vite React Template
 
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AZMAG/mag-vite-react-template?&logo=github&style=flat-square)](https://github.com/AZMAG/mag-vite-react-template/releases)
 ![GitHub Release Date](https://img.shields.io/github/release-date/AZMAG/mag-vite-react-template?&logo=github&style=flat-square)

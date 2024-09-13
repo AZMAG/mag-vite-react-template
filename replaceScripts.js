@@ -1,4 +1,4 @@
-import replace from "replace-in-file"
+import { replaceInFile } from "replace-in-file"
 import pkg from "./package.json" assert { type: "json" }
 
 // README
@@ -90,11 +90,11 @@ const docConfig = {
 
 ;(async () => {
   try {
-    const readmeResults = await replace(readme)
-    const licenseResults = await replace(license)
-    const humansResults = await replace(humans)
-    const indexResults = await replace(index)
-    const docConfigResults = await replace(docConfig)
+    const readmeResults = await replaceInFile(readme)
+    const licenseResults = await replaceInFile(license)
+    const humansResults = await replaceInFile(humans)
+    const indexResults = await replaceInFile(index)
+    const docConfigResults = await replaceInFile(docConfig)
     const results = { readmeResults, licenseResults, humansResults, indexResults, docConfigResults }
     console.log("Replacement results:", results)
   } catch (error) {

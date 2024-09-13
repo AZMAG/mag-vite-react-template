@@ -7,40 +7,31 @@ humanstxt.org/
     Maricopa Association of Governments
     	Name:  Vern Wolfley
     	Role: GIS Engineer III
-    	Contact:
-    	Twitter: @vernwolfley
-    	From: Litchfield Park, AZ
-
-        Name:  Jack Fairfield
-        Role: GIS Engineer II
-        Contact:
-        Twitter:
-        From: Tempe, AZ
 
     	Name:  Jason Howard
     	Role: GIS Program Manager
-    	Contact:
-    	Twitter:
-    	From: Chandler, AZ
-
-        Name:  Anubhav Bagley
-        Role: Regional Analytics Director
-        Contact:
-        Twitter:
-        From: Phoenix, AZ
 
 # THANKS
-
+    [Include any acknowledgments or thanks here, if applicable]
 
 # TECHNOLOGY COLOPHON
 
-    Standards: JavaScript, HTML5, CSS3
-    Components: React, Vite, ArcGIS
+    Standards:
+        - ES6
+        - JavaScript
+        - HTML5
+        - CSS3
+        - Tailwind CSS
+
+    Components:
+        - React
+        - Vite
+        - ArcGIS
 
 # SITE
 
-    Site Name:
-    Site URL:
+    Site Name: [Insert Site Name]
+    Site URL: [Insert Site URL]
     Version: 1.2.0
 	Last updated: 2023-10-5
     Creation date: 2022-08-05
