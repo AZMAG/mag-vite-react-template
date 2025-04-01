@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react"
+import React, { useRef, useEffect, useContext } from "react"
 import esriConfig from "@arcgis/core/config"
 import Map from "@arcgis/core/Map"
 import MapView from "@arcgis/core/views/MapView"
@@ -7,7 +7,7 @@ import ZoomWidget from "../Widgets/zoomWidget"
 import HomeWidget from "../Widgets/homeWidget"
 import LocateWidget from "../Widgets/locateWidget"
 import BasemapToggleWidget from "../Widgets/basemapToggleWidget"
-
+import { AuthContext } from "../Verification/AuthContext"
 import DocConfig from "../../config/DocConfig"
 // const ESRI_apiKEY = import.meta.env.VITE_esri_apiKey
 
@@ -16,6 +16,7 @@ let view
 
 function MainMap() {
   const mapDiv = useRef(null)
+  const { user, logout } = useContext(AuthContext);
 
   function callWidgets() {
     ZoomWidget(view)
@@ -68,7 +69,21 @@ function MainMap() {
     })
   }, [])
 
-  return <div id="map" className="h-full w-full m-auto" ref={mapDiv}></div>
+  return(
+    
+    <div id="map" className="h-full w-full m-auto" ref={mapDiv}>
+      <div className="p-4">
+      <h1 className="text-2xl font-bold">Welcome to the Main Map</h1>
+      <p className="mt-2">Logged in as: {user.username}</p>
+      <button
+        className="bg-red-500 text-white py-2 px-4 rounded mt-4"
+        onClick={logout}
+      >
+        Logout
+      </button>
+    </div>
+    </div>
+  )
 }
 
 function getMapRef() {
