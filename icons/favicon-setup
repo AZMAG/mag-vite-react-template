@@ -1,0 +1,33 @@
+# file structure
+
+- assets
+  - img
+    - favicons
+      - favicon-120.png
+      - favicon-144.png
+      - favicon-150.png
+      - favicon-152.png
+      - favicon-180.png
+      - favicon-192.png
+      - favicon-310.png
+      - favicon-512.png
+      - favicon.svg
+- src
+  - favicon.ico
+  - _includes
+    - base-favicon.partial.njk
+  - root
+    - browserconfig.njk
+    - web-manifest.njk
+
+https://jec.fyi/blog/favicons-manifest
+
+https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/
+
+https://realfavicongenerator.net/
+
+Size	Name	Purpose
+32×32	favicon-32.png	Standard for most desktop browsers
+128×128	favicon-128.png	Chrome Web Store icon & Small Windows 8 Star Screen Icon*
+180×180	favicon-180.png	iOS preferred
+192×192	favicon-192.png	Google Developer Web App Manifest Recommendation
