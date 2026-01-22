@@ -23,7 +23,7 @@
     "replace": "node replaceScripts"
   },
   "dependencies": {
-    "@arcgis/core": "^4.30.9",
+    "@arcgis/core": "^4.34.8",
     "mobx": "^6.13.2",
     "mobx-react-lite": "^4.0.5",
     "react": "^18.3.1",
